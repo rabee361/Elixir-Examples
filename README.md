@@ -1,21 +1,54 @@
-# Examples
+# Elixir Examples
 
-**TODO: Add description**
+A collection of Elixir code examples created for practice and learning purposes.
+
+## Project Overview
+
+This repository contains various Elixir modules demonstrating different concepts and techniques. It's a personal project used for practicing Elixir programming.
+
+## Examples Included
+
+- `Calculator`: Basic arithmetic operations
+- `Fibonacci`: Fibonacci sequence implementation
+- `Factorial`: Factorial calculation
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `examples` to your list of dependencies in `mix.exs`:
+Clone this repository to explore the examples:
 
-```elixir
-def deps do
-  [
-    {:examples, "~> 0.1.0"}
-  ]
-end
+```bash
+git clone <repository-url>
+cd examples
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/examples>.
+## Running the Examples
+
+You can run the examples using IEx (Elixir's interactive shell):
+
+```bash
+iex -S mix
+```
+
+Then try out the modules:
+
+```elixir
+iex> Calculator.calc(5, 3, :+)
+8
+
+iex> Fibonacci.fibonacci(10)
+89
+
+iex> Factorial.fact(5)
+120
+```
+
+## Testing
+
+Run the tests with:
+
+```bash
+mix test
+```
+
+
 
