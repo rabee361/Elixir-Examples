@@ -8,6 +8,6 @@ defmodule Factorial do
   end
 
   def fact(n) do
-    fact(n - 1) * n
+    n * fact(n - 1)
   end
 end
